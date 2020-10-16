@@ -1,0 +1,43 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #ccc;
+    height: 80px;
+    background-color: #ccc;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__button {
+    width: 25%;
+    border-radius: 0;
+    border: 0;
+    border-right: 1px solid grey;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.nav__button--home {
+    background-image: url('../../images/dashboard_icon.png');
+}
+
+.nav__button--codebuddys {
+    background-image: url('../../images/buddy_icon.png');
+}
+
+.nav__button--team {
+    background-image: url('../../images/team_icon.png');
+}
+
+.nav__button--energy {
+    background-image: url('../../images/energy_icon.png');
+}
+
+.nav__button--journalpage {
+    background-image: url('../../images/journal_icon.png');
+}

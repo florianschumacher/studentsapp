@@ -1,0 +1,45 @@
+.buddys {
+    display: block;
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+}
+
+.buddy__a {
+    border: 1px solid #000000;
+}
+
+.buddy__b {
+    border: 1px solid #000000;
+}
+
+.team__member {
+    display: block;
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+}
+
+.team__member__a {
+    border: 1px solid #000000;
+}
+
+.team__member__b {
+    border: 1px solid #000000;
+}
+
+.team__member__c {
+    border: 1px solid #000000;
+}
+
+.team__member__d {
+    border: 1px solid #000000;
+}
+
+section.currentteam {
+    border-style: solid black 1px;
+}

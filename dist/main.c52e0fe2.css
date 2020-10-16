@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list__h2 {
+    display: block;
+    margin-left: 2.25em;
+    text-transform: uppercase;
+}
+
+.section--hidden {
+    display: none;
+}
+
+#dashboard {
+
+}
+
+#codebuddys {
+
+}
+
+#teams {
+
+}
+
+#energy {
+
+}
+
+#journalpage {
+
+}
+
+#journalentry {
+
+}
+
+
+
+header h1 {
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #ccc;
+    height: 80px;
+    background-color: #ccc;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__button {
+    width: 25%;
+    border-radius: 0;
+    border: 0;
+    border-right: 1px solid grey;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.nav__button--home {
+    background-image: url('/dashboard_icon.f7aad722.png');
+}
+
+.nav__button--codebuddys {
+    background-image: url('/buddy_icon.dbf83796.png');
+}
+
+.nav__button--team {
+    background-image: url('/team_icon.8e9c3212.png');
+}
+
+.nav__button--energy {
+    background-image: url('/energy_icon.6876d1a5.png');
+}
+
+.nav__button--journalpage {
+    background-image: url('/journal_icon.f144de6f.png');
+}
+.buddys {
+    display: block;
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+}
+
+.buddy__a {
+    border: 1px solid #000000;
+}
+
+.buddy__b {
+    border: 1px solid #000000;
+}
+
+.team__member {
+    display: block;
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+}
+
+.team__member__a {
+    border: 1px solid #000000;
+}
+
+.team__member__b {
+    border: 1px solid #000000;
+}
+
+.team__member__c {
+    border: 1px solid #000000;
+}
+
+.team__member__d {
+    border: 1px solid #000000;
+}
+
+section.currentteam {
+    border-style: solid black 1px;
+}
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
