@@ -1,12 +1,17 @@
 import navigateTo from './navigation'
+/* import toggleCopy from './toggleheader' */
 
 document
     .querySelectorAll('.nav__button')
     .forEach(element => {
-        console.log(element)
         element.addEventListener('click', (event) => {
             event.preventDefault()
-            console.log(element, event)
             navigateTo(event.target.getAttribute('data-href'))
         })
     })
+
+
+document.getAttribute('data-href', () => {
+        if(this.getAttribute.value = '')
+        document.write.toggle__head('adsfghjk')
+        })

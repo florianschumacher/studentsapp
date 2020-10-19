@@ -126,8 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = navigateTo;
 
 function navigateTo(sectionId) {
-  console.log("Ich wurde ausgeführt!");
-  document.querySelectorAll('section').forEach(function (element) {
+  document.querySelectorAll('.card__section').forEach(function (element) {
     element.classList.add('section--hidden');
   });
   document.querySelector(sectionId).classList.remove('section--hidden');
@@ -137,15 +136,19 @@ function navigateTo(sectionId) {
 
 var _navigation = _interopRequireDefault(require("./navigation"));
 
+var _this = void 0;
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/* import toggleCopy from './toggleheader' */
 document.querySelectorAll('.nav__button').forEach(function (element) {
-  console.log(element);
   element.addEventListener('click', function (event) {
     event.preventDefault();
-    console.log(element, event);
     (0, _navigation.default)(event.target.getAttribute('data-href'));
   });
+});
+document.getAttribute('data-href', function () {
+  if (_this.getAttribute.value = '') document.write.toggle__head('adsfghjk');
 });
 },{"./navigation":"scripts/navigation.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -175,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54200" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56247" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

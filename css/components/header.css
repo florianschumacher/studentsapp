@@ -1,8 +1,15 @@
-header h1 {
+.header {
     margin: 0 auto;
-    padding: 0.5em 1em;
-    border-bottom: 1px solid black;
+    padding: 0.5em 1.5em;
+    border: 0px;
+    background-image: url('../../images/background_shape_1.svg'); 
+    /* Header Grafik eingefügt */
+}
+
+h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    /* Neues CSS Element und Font Weight eingefügt */
 }

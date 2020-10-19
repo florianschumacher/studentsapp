@@ -1,6 +1,5 @@
 export default function navigateTo(sectionId) {
-    console.log("Ich wurde ausgeführt!")
-    document.querySelectorAll('section')
+    document.querySelectorAll('.card__section')
         .forEach(element => {
             element.classList.add('section--hidden')
         })

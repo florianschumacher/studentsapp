@@ -2,7 +2,15 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif; /* Font installiert */
+    background: #fff;
+}
+
+p {
+    font-size: 0.875em;
+    font-weight: 600;
+    font-size: 600;
+    color: #193251;
 }
 
 .list__h2 {
@@ -41,22 +49,36 @@ body {
 
 
 
-header h1 {
+.header {
     margin: 0 auto;
-    padding: 0.5em 1em;
-    border-bottom: 1px solid black;
+    padding: 0.5em 1.5em;
+    border: 0px;
+    background-image: url('/background_shape_1.de12b07c.svg'); 
+    /* Header Grafik eingefügt */
+}
+
+h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    /* Neues CSS Element und Font Weight eingefügt */
 }
+
 footer {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom: 1.25em;
+    left: 1.25em;
+    right: 1.25em;
     border-top: 1px solid #ccc;
     height: 80px;
-    background-color: #ccc;
+    background-color: #fff;
+    height: 2.75em;
+    width: 20.938em;
+    border-radius: 5px;
+    box-shadow: 0 2px 11px 0px #193251, 0 2px 11px 0 #193251;
+    background-blend-mode: darken;
+    z-index: 10;
 }
 
 .nav {
@@ -65,14 +87,14 @@ footer {
 
 .nav__button {
     width: 25%;
-    border-radius: 0;
-    border: 0;
-    border-right: 1px solid grey;
-    height: 80px;
+    position: relative;
+    margin: 0.6em;
+    height: 1.313em;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: contain;
 }
+
 .nav__button--home {
     background-image: url('/dashboard_icon.f7aad722.png');
 }
@@ -137,5 +159,264 @@ footer {
 section.currentteam {
     border-style: solid black 1px;
 }
+
+/* Energy starts here */
+
+.article__energy {
+    position: relative;
+    margin-top: 1.025em;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+}
+
+.img__energy {
+    width: 19.688em;
+    height: 13em;
+}
+
+.button__energy {
+    margin-left: 16.688em;
+    background: #193251;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #ffffff;
+    padding: 0.063em 0.375em;
+}
+
+.button__energy--active {
+    background: #FFDED7;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #FF5A36;
+    padding: 0.063em 0.375em;
+}
+
+.button__rate__energy {
+    width: 100%;
+    height: 3em;
+    background-color: #FF5A36;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #ffffff;
+    padding: 0.063em 0.375em;
+    margin: 0.25em 0em 0.25em 0em;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.button__rate__energy-100 {
+    width: 100%;
+    height: 3em;
+    background-color: #FF9C86;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #ffffff;
+    padding: 0.063em 0.375em;
+    margin: 0.25em 0em 0.25em 0em;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.button__rate__energy-75 {
+    width: 100%;
+    height: 3em;
+    background-color: #FF9C86;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #ffffff;
+    padding: 0.063em 0.375em;
+    margin: 0.25em 0em 0.25em 0em;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.button__rate__energy-50 {
+    width: 100%;
+    height: 3em;
+    background-color: #FFBDAF;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #FF5A36;
+    padding: 0.063em 0.375em;
+    margin: 0.25em 0em 0.25em 0em;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.button__rate__energy-25 {
+    width: 100%;
+    height: 3em;
+    background-color: #FFDED7;
+    border-radius: 0.188em;
+    border-style: none;
+    color: #FF5A36;
+    padding: 0.063em 0.375em;
+    margin: 0.25em 0em 0.25em 0em;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+/* Energy ends here */
+
+.buddys {
+    background-color:  #ffffff;
+    border-style: solid;
+    border: 0.0125em;
+    list-style: none;
+    background-image: url('/Plus.1a976ec6.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+.buddys:first-child {
+    border-bottom: none;
+}
+.journal__box {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #E0E4E8;
+    box-shadow: 2px 2px 2px 2px rgb(219, 217, 217);
+    border-width: 1px;
+    border-radius: 6px;
+}
+.journal__box--h2 {
+    font-size: 0.875em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #193251;
+}
+.journal__box--namings {
+    font-size: 0.75em;
+    margin-left: 10px;
+    color: #7589A2;
+}
+.journal__box--mottocontent {
+    font-size: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #193251;
+}
+.journal__box--notescontent {
+    font-size: 0.81em;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: #193251;
+}
+.journal__submit {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #FF5A36;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.rating {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#E0E4E8;
+}
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: #193251;
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #193251;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #193251;
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+.rating__box {
+    display: block;
+    width: 260px;
+    height: 22px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rating__box:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+.rating__box:not(:checked) > label {
+    float: right;
+    width: 22px;
+    height: 22px;
+    padding-right: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 2px;
+    color: #ffffff;
+}
+.rating__box:not(:checked) > label:before {
+    content: url('/box_unchecked.51333d27.png');
+}
+.rating__box > input:checked ~ label {
+    /*color: #193251;*/
+    content: url('/box_checked.fbf0e7ac.png');
+}
+.rating__box:not(:checked) > label:hover,
+.rating__box:not(:checked) > label:hover ~ label {
+    /*color: #193251;*/
+    content: url('/box_checked.fbf0e7ac.png');
+}
+.rating__box > input:checked + label:hover,
+.rating__box > input:checked + label:hover ~ label,
+.rating__box > input:checked ~ label:hover,
+.rating__box > input:checked ~ label:hover ~ label,
+.rating__box > label:hover ~ input:checked ~ label {
+    color: #193251;
+}
+
+
+
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
