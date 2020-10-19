@@ -54,6 +54,7 @@ p {
     padding: 0.5em 1.5em;
     border: 0px;
     background-image: url('/background_shape_1.de12b07c.svg'); 
+    background-repeat: no-repeat;
     /* Header Grafik eingefügt */
 }
 
